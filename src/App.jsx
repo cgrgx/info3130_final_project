@@ -9,7 +9,7 @@ import Chat from "./components/Chat";
 
 function App() {
   return (
-    <Router basename="/INFO3130-Final-Project/">
+    <Router basename="/info3130_final_project/">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
