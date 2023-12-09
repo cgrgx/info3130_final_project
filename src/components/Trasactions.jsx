@@ -18,36 +18,36 @@ function Transactions() {
           <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8 overflow-x-scroll">
               <div className="overflow-hidden">
-                <table className="w-full text-xm md:text-lg">
+                <table className="w-full text-xl md:text-lg">
                   <thead className="border-b">
                     <tr>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-gray-900  text-left sm:w-auto"
+                        className="text-md font-medium text-gray-900  text-left sm:w-auto"
                       >
                         Transaction
                       </th>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-gray-900  text-left sm:w-auto"
+                        className="text-md font-medium text-gray-900  text-left sm:w-auto"
                       >
                         Date
                       </th>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-gray-900  text-left sm:w-auto"
+                        className="text-md font-medium text-gray-900  text-left sm:w-auto"
                       >
                         Time
                       </th>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-gray-900  text-left sm:w-auto"
+                        className="text-md font-medium text-gray-900  text-left sm:w-auto"
                       >
                         Amount
                       </th>
                       <th
                         scope="col"
-                        className="text-sm font-medium text-gray-900  text-left sm:w-auto"
+                        className="text-md font-medium text-gray-900  text-left sm:w-auto"
                       >
                         Status
                       </th>
@@ -64,10 +64,10 @@ function Transactions() {
                         <td className=" whitespace-nowrap text-sm font-medium text-gray-900 sm:w-auto">
                           {transaction.transactionName}
                         </td>
-                        <td className="text-sm text-gray-900 font-light  whitespace-nowrap sm:w-auto">
+                        <td className="text-sm text-gray-900 font-semibold  whitespace-nowrap sm:w-auto">
                           {transaction.date}
                         </td>
-                        <td className="text-sm text-gray-900 font-light  whitespace-nowrap sm:w-auto">
+                        <td className="text-sm text-gray-900 font-semibold  whitespace-nowrap sm:w-auto">
                           {transaction.time}
                         </td>
                         <td
@@ -75,11 +75,11 @@ function Transactions() {
                             transaction.amount < 0
                               ? "text-red-500"
                               : "text-green-500"
-                          } text-sm  font-light  whitespace-nowrap sm:w-auto`}
+                          } text-sm  font-semibold  whitespace-nowrap sm:w-auto`}
                         >
                           ${Math.abs(transaction.amount)}
                         </td>
-                        <td className="text-sm text-green-500 font-light  whitespace-nowrap sm:w-auto">
+                        <td className="text-sm font-semibold text-green-600   whitespace-nowrap sm:w-auto">
                           {transaction.status}
                         </td>
                       </tr>

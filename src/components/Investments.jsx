@@ -26,8 +26,8 @@ function Investments() {
                   <div className="text-sm font-semibold">Total Gain:</div>
                   <div className="text-sm">1,063.24</div>
                 </div>
-                <div className="text-green-500 mr-2">
-                  <IoIosTrendingUp />
+                <div className="text-green-500 mr-2 font-bold">
+                  <IoIosTrendingUp className="text-3xl" />
                 </div>
               </div>
               <div className="flex items-center md:mt-4">
@@ -36,7 +36,7 @@ function Investments() {
                   <div className="text-sm">991.73</div>
                 </div>
                 <div className="text-red-500 mr-2">
-                  <IoIosTrendingDown />
+                  <IoIosTrendingDown className="text-3xl" />
                 </div>
               </div>
             </div>

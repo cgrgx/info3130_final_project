@@ -26,7 +26,7 @@ function Chat() {
           <div className="h-96 w-full mb-4 p-3 rounded bg-blue-100">
             <div className="space-y-4">
               <div className="flex items-start">
-                <div className="ml-3 bg-blue-600 p-3 rounded-lg">
+                <div className="ml-2 bg-blue-600 p-3 rounded-lg">
                   <p className="text-sm text-gray-100">
                     Hello! How can I help you today?
                   </p>

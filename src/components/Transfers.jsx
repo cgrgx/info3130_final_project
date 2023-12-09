@@ -26,7 +26,7 @@ function Transfers() {
             <label className="block">
               <span>From</span>
               <select
-                className="form-select block w-full mt-1"
+                className="form-select block w-full mt-1 border-b border-gray-600"
                 value={fromAccount}
                 onChange={(e) => setFromAccount(e.target.value)}
               >
@@ -38,7 +38,7 @@ function Transfers() {
             <label className="block">
               <span>To</span>
               <select
-                className="form-select block w-full mt-1"
+                className="form-select block w-full mt-1 border-b border-gray-600"
                 value={toAccount}
                 onChange={(e) => setToAccount(e.target.value)}
               >
@@ -62,7 +62,7 @@ function Transfers() {
                   onChange={(e) => setAmount(e.target.value)}
                   placeholder="0.00"
                 />
-                <select className="form-select ml-2">
+                <select className="form-select ml-2 border-b border-gray-600">
                   <option>CAD</option>
                   <option>USD</option>
                 </select>
@@ -72,7 +72,7 @@ function Transfers() {
             <label className="block">
               <span>How Often</span>
               <select
-                className="form-select block w-full mt-1"
+                className="form-select block w-full mt-1 border-b border-gray-600"
                 value={frequency}
                 onChange={(e) => setFrequency(e.target.value)}
               >
